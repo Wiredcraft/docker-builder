@@ -6,7 +6,7 @@ except ImportError:
 
 setup(
     name='docker_builder',
-    version='0.1',
+    version='0.2',
     description='Builder for docker containers',
     url = '',
     author='zbal',
@@ -20,5 +20,9 @@ setup(
     ],
     scripts=[
         'bin/docker-builder'
+    ],
+    install_requires=[
+        'docopt',
+        'pyyaml'
     ]
 )

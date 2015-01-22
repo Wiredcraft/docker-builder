@@ -5,8 +5,7 @@ Build script to create containers, tag them and push them to a remote repository
 # Install
 
 ```
-cd arch/docker/builder
-pip install .
+pip install docker-builder
 ```
 
 # Usage
