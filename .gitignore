@@ -1,0 +1,8 @@
+.*
+!.gitignore
+*pyc
+*pyo
+*egg-info
+src
+*log
+build
