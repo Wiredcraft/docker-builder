@@ -58,3 +58,12 @@ Containers
 The ``containers`` attribute defines a list of containers and the order in which they will be built. It effectively defines the dependencies among containers and ensure the "source" ones are built first.
 
 Each of the containers defined in the list must be defined in a matching name folder.
+
+TODO
+====
+
+Lots of things; this first version is very crude and only a wrapper arround the regular ``docker`` CLI command.
+
+- use docker-py (why not...)
+- better management of hierarchy in a project (e.g. specifying a parent container would automatically re-build the childrens)
+- suggestions?
