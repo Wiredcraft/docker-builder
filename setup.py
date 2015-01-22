@@ -8,7 +8,7 @@ setup(
     name='docker_builder',
     version='0.2',
     description='Builder for docker containers',
-    url = '',
+    url = 'https://github.com/Wiredcraft/docker-builder',
     author='zbal',
     author_email='vincent@wiredcraft.com',
     license='MIT',
