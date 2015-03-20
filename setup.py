@@ -13,7 +13,7 @@ setup(
     author_email='vincent@wiredcraft.com',
     license='MIT',
     package_dir={
-        'docker_builder': '.'
+        'docker_builder': './lib/docker_builder'
     },
     packages=[
        'docker_builder'
@@ -23,6 +23,7 @@ setup(
     ],
     install_requires=[
         'docopt',
-        'pyyaml'
+        'pyyaml',
+        'tox==1.9.0'
     ]
 )

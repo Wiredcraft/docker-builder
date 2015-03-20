@@ -3,6 +3,13 @@ Docker Builder
 
 Build script to create containers, tag them and push them to a remote repository.
 
+Test
+====
+ .. code-block:: bash
+
+    sudo pip install -r requirements.txt
+    make test
+
 Install
 =======
 
