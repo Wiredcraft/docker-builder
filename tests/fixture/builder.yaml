@@ -1,0 +1,13 @@
+registries:
+  - registry: https://index.docker.io/v1/
+    username: user
+    password: pass
+    email: email
+
+  - registry: local
+    username: 127.0.0.1:5000
+
+containers:
+  - container1
+  - container2
+  - container3

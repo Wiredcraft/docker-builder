@@ -5,7 +5,7 @@ Build script to create containers, tag them and push them to a remote repository
 
 Test
 ====
- .. code-block:: bash
+.. code-block:: bash
 
     sudo pip install -r requirements.txt
     make test
@@ -29,7 +29,7 @@ Usage
 Config file
 ===========
 
-It expects a config file in ``yaml`` format in the current folder named ``builder.yaml``. 
+It expects a config file in ``yaml`` format in the current folder named ``builder.yaml``.
 
 Format
 ------
@@ -41,7 +41,7 @@ Format
         username: user
         password: pass
         email: email
-    
+
       - registry: local
         username: 127.0.0.1:5000
 
