@@ -23,8 +23,8 @@ assert __version__ == '0.2'
 # Test ReadLine
 valid_reader = LineReader(valid_fd)
 empty_reader = LineReader(empty_fd)
-assert valid_reader.fileno() == valid_fd
-assert empty_reader.fileno() == empty_fd
+assert valid_reader.fileno() is valid_fd
+assert empty_reader.fileno() is empty_fd
 
 empty_lines = empty_reader.readlines()
 valid_lines = valid_reader.readlines()
