@@ -1,7 +1,13 @@
 Docker Builder
 ==============
 
-Build script to create containers, tag them and push them to a remote repository.
+Build script to create images which are based on each other in a certain hierarchy, tag them and push them to a remote repository.
+
+The scenario is a stack of docker images where the 2nd one is made FROM: the 1st, the 3rd one is made FROM: the 2nd, ... and so on.
+
+docker-builder helps to rebuild such a stack from the point where anything might have to changed and therefore a rebuild of an image (and naturally all images on top of that image in such a stack) is required.
+Let's say there is a stack of 10 images based on each other and i.e. a vulnaribility turns up in the 7th of those 10. The docker-builder helps to automatically rebuild the images 7-10
+
 
 Test
 ====
